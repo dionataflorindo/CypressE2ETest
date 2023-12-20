@@ -1,0 +1,22 @@
+{
+  "name": "cadastro-de-usu-rio-cypress-ui",
+  "version": "1.0.0",
+  "description": "Testes de UI com Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dionataflorindo/Cadastro-de-usu-rio-Cypress-UI.git"
+  },
+  "author": "dionata correa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dionataflorindo/Cadastro-de-usu-rio-Cypress-UI/issues"
+  },
+  "homepage": "https://github.com/dionataflorindo/Cadastro-de-usu-rio-Cypress-UI#readme",
+  "devDependencies": {
+    "cypress": "^13.6.1"
+  }
+}
