@@ -3,21 +3,23 @@ Criação de teste automatizado com cypress focado em UI
 
 Casos de testes 
 
-1. Inicie o navegador
-2. Navegue até o URL 'http://automationexercise.com'
-3. Verifique se a página inicial está visível com sucesso
-4. Clique no botão 'Inscreva-se / Login'
-5. Verifique 'Inscrição de novo usuário!' é visível
-6. Digite o nome e endereço de e-mail
-7. Clique no botão 'Inscrever-se'
-8. Verifique se 'INSERIR INFORMAÇÕES DA CONTA' está visível
-9. Preencha os dados: Título, Nome, Email, Senha, Data de nascimento
-10. Marque a caixa de seleção 'Inscreva-se em nosso boletim informativo!'
-11. Marque a caixa de seleção 'Receber ofertas especiais de nossos parceiros!'
-12. Preencha os dados: Nome, Sobrenome, Empresa, Endereço, Endereço2, País, Estado, Cidade, CEP, Número de celular
-13. Clique no botão 'Criar conta'
-14. Verifique se 'CONTA CRIADA!' é visível
-15. Clique no botão ‘Continuar’
-16. Verifique se ‘Logado como nome de usuário’ está visível
-17. Clique no botão ‘Excluir conta’
-18. Verifique se 'CONTA EXCLUÍDA!' está visível e clique no botão 'Continuar'
+Test Case 1: Register User
+
+1. Launch browser
+2. Navigate to url 'http://automationexercise.com'
+3. Verify that home page is visible successfully
+4. Click on 'Signup / Login' button
+5. Verify 'New User Signup!' is visible
+6. Enter name and email address
+7. Click 'Signup' button
+8. Verify that 'ENTER ACCOUNT INFORMATION' is visible
+9. Fill details: Title, Name, Email, Password, Date of birth
+10. Select checkbox 'Sign up for our newsletter!'
+11. Select checkbox 'Receive special offers from our partners!'
+12. Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number
+13. Click 'Create Account button'
+14. Verify that 'ACCOUNT CREATED!' is visible
+15. Click 'Continue' button
+16. Verify that 'Logged in as username' is visible
+17. Click 'Delete Account' button
+18. Verify that 'ACCOUNT DELETED!' is visible and click 'Continue' button
