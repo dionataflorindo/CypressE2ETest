@@ -1,4 +1,4 @@
-import CadastraUsuario from '../support/page-objects/home.cy'
+import CadastraUsuario from '../support/page-objects/registerUser.cy'
 
 describe('Realizando o cadastro de um usuario ',()=>{
 
@@ -8,8 +8,7 @@ describe('Realizando o cadastro de um usuario ',()=>{
   
   it('Deve realizar o cadastro do usuário',()=>{
     CadastraUsuario.AcessaCadastroUsuario();
-    CadastraUsuario.VerificaTexto();
-    CadastraUsuario.VerificaTexto();
+    CadastraUsuario.VerificaTextoPaginaLogin();
     CadastraUsuario.PreencheNomeEemail();
     CadastraUsuario.BtncadastrarUsuario();
     CadastraUsuario.PreencheCadastro();

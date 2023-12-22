@@ -8,13 +8,13 @@ class CadastraUsuario {
         cy.get('.shop-menu > .nav > :nth-child(4) >').click();
     }
 
-    VerificaTexto(){
+    VerificaTextoPaginaLogin(){
         cy.get('.signup-form > h2').should('be.visible');
     }
 
     PreencheNomeEemail(){
         cy.get('[data-qa="signup-name"]').type('dionata');
-        cy.get('[data-qa="signup-email"]').type('dionata@teste5.com.br');
+        cy.get('[data-qa="signup-email"]').type('dionata@teste.com.br');
     }
 
     BtncadastrarUsuario(){
