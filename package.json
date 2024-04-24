@@ -4,9 +4,8 @@
   "description": "Testes de UI com Cypress",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "test": "cypress open"
+    "test": "cypress run"
   },
   "repository": {
     "type": "git",
