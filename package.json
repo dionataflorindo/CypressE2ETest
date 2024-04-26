@@ -19,5 +19,5 @@
   "homepage": "https://github.com/dionataflorindo/Cadastro-de-usu-rio-Cypress-UI#readme",
   "devDependencies": {
     "cypress": "^13.6.1"
-  }
+  } 
 }
